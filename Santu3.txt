@@ -1,1 +1,207 @@
 This my third file
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/SANTOSH/OneDrive/Desktop/.git/
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop (master)
+$ git --version
+git version 2.56.0.windows.4
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop (master)
+$ $ git config --global user.name "Santosh"
+bash: $: command not found
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop (master)
+$ $ git config --global user.email "santoshkollanatti75@gmail.com"
+bash: $: command not found
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop (master)
+$ git config --global user.name "Santosh"
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop (master)
+$ git config --global user.email "santoshkollanatti75@gamil.com
+> ^C
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop (master)
+$ git config --global user.email "santoshkollanatti75@gamil.com"
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/SANTOSH/OneDrive/Desktop/.git/
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop (master)
+$ mkdir Santosh3
+mkdir: cannot create directory ‘Santosh3’: File exists
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop (master)
+$ mkdir Santosh3.1
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop (master)
+$ cd Santosh3.1
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git init
+Initialized empty Git repository in C:/Users/SANTOSH/OneDrive/Desktop/Santosh3.1/.git/
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ echo "This my third file"> Santu3.txt
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Santu3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git add Santu3.txt
+warning: in the working copy of 'Santu3.txt', LF will be replaced by CRLF the next time Git touches it
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Santu3.txt
+
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git commit -m "My Third file"
+[master (root-commit) 237c8f4] My Third file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Santu3.txt
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git branch
+* master
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git branch Santosh3
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git checkout Santosh3
+Switched to branch 'Santosh3'
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (Santosh3)
+$ git branch
+* Santosh3
+  master
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (Santosh3)
+$ git commit -m "Branch is Created"
+On branch Santosh3
+nothing to commit, working tree clean
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (Santosh3)
+$ git add origin https://github.com/Santoshkollanatti/Santosh_Git3.git
+fatal: pathspec 'origin' did not match any files
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (Santosh3)
+$ remote add origin https://github.com/Santoshkollanatti/Santosh_Git3.git
+bash: remote: command not found
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (Santosh3)
+$ git remote add origin https://github.com/Santoshkollanatti/Santosh_Git3.git
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (Santosh3)
+$ git remote -v
+origin  https://github.com/Santoshkollanatti/Santosh_Git3.git (fetch)
+origin  https://github.com/Santoshkollanatti/Santosh_Git3.git (push)
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (Santosh3)
+$ git push -u origin Santosh3
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 241 bytes | 120.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Santoshkollanatti/Santosh_Git3.git
+ * [new branch]      Santosh3 -> Santosh3
+branch 'Santosh3' set up to track 'origin/Santosh3'.
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (Santosh3)
+$ git merge Santosh3
+Already up to date.
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (Santosh3)
+$ git push -u origin Santosh3
+branch 'Santosh3' set up to track 'origin/Santosh3'.
+Everything up-to-date
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (Santosh3)
+$ git checkout Santosh3
+Already on 'Santosh3'
+Your branch is up to date with 'origin/Santosh3'.
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (Santosh3)
+$ git stash
+No local changes to save
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (Santosh3)
+$ git checkout Santosh3
+Already on 'Santosh3'
+Your branch is up to date with 'origin/Santosh3'.
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (Santosh3)
+$ git apply stash
+error: can't open patch 'stash': No such file or directory
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (Santosh3)
+$ git stash apply
+No stash entries found.
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (Santosh3)
+$ git checkout master
+Switched to branch 'master'
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git branch
+  Santosh3
+* master
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git push -u origin master
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/Santoshkollanatti/Santosh_Git3/pull/new/master
+remote:
+To https://github.com/Santoshkollanatti/Santosh_Git3.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git stash
+No local changes to save
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git stash apply
+No stash entries found.
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git add .
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git commit -m "Switch branch stash"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git push -u origin master
+fatal: unable to access 'https://github.com/Santoshkollanatti/Santosh_Git3.git/': Could not resolve host: github.com
+
+SANTOSH@DESKTOP-MIHM1B5 UCRT64 ~/OneDrive/Desktop/Santosh3.1 (master)
+$ git push -u origin Santosh3
+branch 'Santosh3' set up to track 'origin/Santosh3'.
+Everything up-to-date
+
+
